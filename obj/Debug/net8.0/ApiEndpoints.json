@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "RevisaoApi.Controllers.AlunoController",
+    "Method": "Atualizar",
+    "RelativePath": "api/Aluno/Atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aluno",
+        "Type": "RevisaoApi.Models.Aluno",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RevisaoApi.Controllers.AlunoController",
+    "Method": "Buscar",
+    "RelativePath": "api/Aluno/Buscar{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RevisaoApi.Controllers.AlunoController",
+    "Method": "BuscarTodos",
+    "RelativePath": "api/Aluno/BuscarTodos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RevisaoApi.Controllers.AlunoController",
+    "Method": "Excluir",
+    "RelativePath": "api/Aluno/Excluir{codigo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RevisaoApi.Controllers.AlunoController",
+    "Method": "Inserir",
+    "RelativePath": "api/Aluno/Inserir",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aluno",
+        "Type": "RevisaoApi.Models.Aluno",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
